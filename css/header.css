@@ -1,0 +1,68 @@
+/*********************************TAGS************************/
+
+
+/* Header */
+
+.logo-img {
+    width: 190px;
+    height: 90px;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header,
+footer {
+    background-color: #F5F5F5;
+}
+
+.top-col {
+    padding-top: 20px;
+}
+
+.top-col a {
+    text-decoration: none;
+    color: #002b55;
+    font-size: 1.3em;
+    line-height: 2;
+}
+
+
+/*navbar*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.navbar {
+    padding-right: 0 !important;
+}
+
+.nav-link1 {
+    line-height: 0.7em;
+    font-size: 1.2em;
+    color: #002b55;
+    border-left: 2px solid #f5f5f5;
+    padding-left: 5px;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.nav-link1:hover {
+    color: rgb(0, 43, 85);
+    border-left: 2px solid #fede43;
+}
+
+@media screen and (max-width: 991px) {
+    .text-left .text-right {
+        background-color: #fede43;
+    }
+}

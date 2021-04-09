@@ -1,0 +1,468 @@
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 43, 85) !important;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    line-height: 2em;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    border-left: 2px solid #FEDE43;
+    padding-left: 15px !important;
+    color: rgb(0, 43, 85);
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 15px 0px !important;
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+li,
+span {
+    font-weight: 200;
+}
+
+.mr-t15 {
+    margin: 15px 0;
+}
+
+
+/* Carousel */
+
+.w-100 {
+    height: 60%;
+}
+
+.d-block1 {
+    margin: auto;
+    background-color: rgba(0, 43, 85, 0.8);
+    color: #fff;
+    text-align: center;
+    height: 80%;
+    bottom: 45px;
+}
+
+.d-block1 h5 {
+    padding-bottom: 2em;
+    text-transform: uppercase;
+}
+
+.d-block1 h1 {
+    font-size: 60px;
+    padding-bottom: 1.1em;
+}
+
+.d-block1 p {
+    font-size: 20px;
+    padding: 10px 20px 0;
+}
+
+
+/* About-company section */
+
+.factory-img {
+    vertical-align: center;
+}
+
+#about-company {
+    margin: 4% 3%;
+    text-align: justify;
+}
+
+#about-company h2 {
+    text-align: left;
+}
+
+.factory-img {
+    width: 100%;
+    height: 270px;
+    vertical-align: bottom;
+    /* padding: 80px 0; */
+}
+
+
+/* LOVEL */
+
+.sertifcat {
+    width: 100%;
+}
+
+#lovel {
+    background-color: rgba(0, 47, 90, 0.767);
+    color: #fff !important;
+    text-align: right;
+    text-align: justify;
+    background-image: url("/img/bg-part-0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green-text {
+    color: #c3e470;
+}
+
+.green-text:hover {
+    color: #7d9938;
+}
+
+#lovel h2 {
+    color: #c3e470;
+    border: none;
+    text-align: right;
+}
+
+.lovel-img {
+    width: 100%;
+    height: 90px;
+    margin: 15px auto;
+}
+
+.lovel-left {
+    padding-top: 55px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+
+/* Companies */
+
+#companies {
+    margin-top: 7px;
+    text-align: left !important;
+}
+
+.item {
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+    position: relative;
+    height: 100%;
+    padding: 15px;
+}
+
+.item p,
+h4 {
+    font-size: 1.1em;
+    border-left: none;
+    padding-left: 0px !important;
+}
+
+.item a {
+    color: #002B55;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.item:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.name {
+    color: #000;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.nameDate {
+    color: #0cae4c;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.bgout {
+    border: 10px solid #fff;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 20px;
+}
+
+.bgcolor {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.col-lg-4 {
+    margin-bottom: 30px;
+}
+
+
+/* SERVICE */
+
+#service h2,
+span {
+    color: white !important;
+}
+
+.description {
+    text-transform: uppercase;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+}
+
+.service-img {
+    width: 20%;
+    height: auto !important;
+    margin: auto;
+}
+
+
+/* Information */
+
+#information span {
+    color: rgb(0, 43, 85) !important;
+}
+
+.firstEvent {
+    display: inline-block;
+}
+
+
+/* Antriebstechnik */
+
+.contact-box {
+    background-color: #002B55;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+.BUTTON_ANK {
+    background: #002B55;
+    background-image: -webkit-linear-gradient(top, #002B55, #006DD7);
+    background-image: -moz-linear-gradient(top, #002B55, #006DD7);
+    background-image: -ms-linear-gradient(top, #002B55, #006DD7);
+    background-image: -o-linear-gradient(top, #002B55, #006DD7);
+    background-image: linear-gradient(to bottom, #002B55, #006DD7);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF !important;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    box-shadow: 1px 1px 20px 0px #002B55;
+    -webkit-box-shadow: 1px 1px 20px 0px #002B55;
+    -moz-box-shadow: 1px 1px 20px 0px #002B55;
+    text-shadow: 1px 1px 20px #002B55;
+    border: solid #002B55 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_ANK:hover {
+    border: solid #054092 1px;
+    background: #054092;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #0A69D5);
+    background-image: -moz-linear-gradient(top, #1E62D0, #0A69D5);
+    background-image: -ms-linear-gradient(top, #1E62D0, #0A69D5);
+    background-image: -o-linear-gradient(top, #1E62D0, #0A69D5);
+    background-image: linear-gradient(to bottom, #1E62D0, #0A69D5);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/* motors */
+
+td {
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    border: solid 6px #fff;
+    margin: 2px;
+    background-color: #F5F5F5;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.download {
+    border-top: 1px solid #D1D1D1;
+    border-bottom: 1px solid #D1D1D1;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.download span {
+    color: #002B55 !important;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+.fa-download {
+    float: right;
+    color: #002B55 !important;
+}
+
+
+/* media */
+
+@media screen and (max-width: 1149px) {
+    .d-block1 p {
+        position: relative;
+        bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .d-block1 p {
+        position: relative;
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width:1059px) {
+    .d-block1 p {
+        position: relative;
+        bottom: 30px;
+    }
+    .d-block1 h1 {
+        font-size: 40px;
+        position: relative;
+        bottom: 30px
+    }
+    .d-block1 h5 {
+        font-size: 20px;
+        position: relative;
+        bottom: 10px
+    }
+}
+
+@media screen and (max-width:929px) {
+    .d-block1 p {
+        padding: 0;
+        position: inherit;
+        bottom: 10px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .d-block1 {
+        height: 70%;
+    }
+    .d-block1 h1 {
+        font-size: 34px;
+        position: relative;
+        bottom: 40px
+    }
+    .d-block1 h5 {
+        font-size: 15px;
+        position: relative;
+        bottom: 10px
+    }
+}
+
+@media screen and (max-width:650px) {
+    .d-block1 p {
+        position: relative;
+        bottom: 37px;
+        font-size: 12px;
+    }
+    .d-block1 h1 {
+        font-size: 26px;
+        position: relative;
+        bottom: 20px
+    }
+    .d-block1 h5 {
+        font-size: 12px;
+        position: relative;
+        bottom: 10px
+    }
+    .d-block1 {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:586px) {
+    .d-block1 p {
+        display: none;
+    }
+    .d-block1 h5 {
+        font-size: 16px;
+        position: relative;
+        bottom: 10px;
+    }
+    .d-block1 h1 {
+        font-size: 30px;
+        position: relative;
+        bottom: 30px;
+    }
+    .d-block1 {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:486px) {
+    .d-block1 h5 {
+        padding: 0;
+        font-size: 12px;
+        position: relative;
+        top: 1px;
+    }
+    .d-block1 h1 {
+        padding-top: 10px;
+        font-size: 22px;
+        position: relative;
+        top: 1px;
+    }
+    .d-block1 {
+        height: 70%;
+    }
+}
+
+
+/* fixed blocks
+
+.fixed-box1 {
+background-color: #a52a2a;
+border: 1px solid;
+}
+
+.col-left {
+padding: 0 25px;
+}
+
+.col-right {
+border: 1px solid;
+text-align: justify !important;
+}
+
+.fixed {
+position: fixed;
+z-index: 9999;
+top: 0;
+}
+
+.cols {
+border: 1px solid;
+}
+
+h2 {
+font-size: 25px;
+}
+
+.item {
+margin: 0 10px 10px;
+background-color: gray;
+} */

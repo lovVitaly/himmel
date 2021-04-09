@@ -1,0 +1,22 @@
+footer hr {
+    border-top: 1px solid #002B55;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+@media screen and (max-width:991px) {
+    p,
+    .nav-link {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footermenu {
+        text-align: center !important;
+    }
+}
